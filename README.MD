@@ -1,13 +1,14 @@
 # Clock for Virtual Box
 ## Get Time Zone/Clock while in a VBOX
 
-### What?
+### What?!
 
 When using a virtual box with a different OS than the main system, set up with different time-zone, IP etc.., just run this program in terminal to get local time zone, or run a clock in your terminal with your real location's time.
 
 
 This is particularly useful for me, since I have kali linux as my daily bare-metal system, but do most daily activities through a Virtual Box in an entirely different time zone.
 
+### Oh...
 
 To run:
 
