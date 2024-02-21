@@ -3,7 +3,13 @@
 
 ### What?!
 
-When using a virtual box set up with different time-zone, IP etc.., just run this program in terminal to get local time zone, or run a clock in your terminal with your real location's time.
+When using a virtual box set up with a different time-zone due to a different IP, just run this program in a terminal to:
+
+1) Set your local time zone
+2) Run a clock in your terminal to display your real location's time, if a time zone has been set
+
+
+Alternatively, just display the time in your chosen time zone once.
 
 
 This is particularly useful to me, since I have kali linux as my daily bare-metal system, but do most "normal user" activities (reddit, music, videos etc..) through a Virtual Box in an entirely different time zone.
