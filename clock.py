@@ -21,9 +21,12 @@ def clock(continent, city, time_zone):
             second = 0
             minute += 1
         elif second == 59 and minute == 59:
+            if hour == 23:
+                hour = 0
+            else:
+                hour += 1
             second = 0
             minute = 0
-            hour += 1
         time.sleep(1)
         if second < 10:
             print("\x1bTime Zone: {}, {} - Current Time:\n{}:{}:{:02d}".format( continent, city, hour, minute, second))
